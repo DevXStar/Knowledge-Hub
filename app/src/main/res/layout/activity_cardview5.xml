@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/purple_200"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/roboto_bold"
+        android:paddingHorizontal="30dp"
+        android:text="Blockchain Technology"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview7"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentBottom="false"
+        app:cardBackgroundColor="@color/dblue"
+        app:cardCornerRadius="300dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/cpp" />
+    </androidx.cardview.widget.CardView>
+    />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview8"
+        android:layout_marginTop="40dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/textView"
+        android:layout_alignParentBottom="false"
+        android:layout_toEndOf="@id/cardview7"
+        app:cardBackgroundColor="@color/dblue"
+        app:cardCornerRadius="300dp" >
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="110dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/python" />
+    </androidx.cardview.widget.CardView>
+    />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview9"
+        android:layout_marginTop="75dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/cardview7"
+        android:layout_alignParentBottom="false"
+        app:cardBackgroundColor="@color/dblue"
+        app:cardCornerRadius="300dp" >
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/java" />
+    </androidx.cardview.widget.CardView>
+    />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview10"
+        android:layout_marginTop="75dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_below="@id/cardview8"
+        android:layout_alignEnd="@id/cardview8"
+        android:layout_alignParentBottom="false"
+        app:cardBackgroundColor="@color/dblue"
+        app:cardCornerRadius="300dp" >
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="155dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/javascript" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/cardview7"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:layout_marginHorizontal="70dp"
+        android:text="C++"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/cardview8"
+        android:layout_marginHorizontal="60dp"
+        android:layout_toEndOf="@id/textView9"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="Python"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/cardview9"
+        android:paddingLeft="62dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="Java"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardview10"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/textView11"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:paddingLeft="100dp"
+        android:text="Javascript"
+        android:textSize="30dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Cardview2"
+        android:layout_width="190dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/cardview10"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="110dp"
+        app:cardBackgroundColor="@color/teal_200"
+        app:cardCornerRadius="20dp">
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/dblue"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto"
+            android:text="Learn!"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

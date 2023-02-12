@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/roboto_bold"
+        android:paddingHorizontal="30dp"
+        android:text="Welcome To Knowledge Hub!"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/black"
+        android:text="Here you will learn about some interesting technologies out there."
+        android:textSize="20dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Cardview1"
+        android:layout_width="390dp"
+        android:layout_height="240dp"
+        android:layout_below="@id/textView2"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="20dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/tech" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Cardview2"
+        android:layout_width="190dp"
+        android:layout_height="42dp"
+        android:layout_below="@id/Cardview1"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        app:cardBackgroundColor="@color/teal_200"
+        app:cardCornerRadius="20dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/dblue"
+            android:layout_gravity="center"
+            android:fontFamily="@font/roboto"
+            android:text="Lets Begin!"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+
+            />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
