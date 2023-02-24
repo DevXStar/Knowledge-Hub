@@ -18,7 +18,7 @@
 
 - Clone the repository to your local machine using
 ```bash
-  git clone https://github.com/INFI-NIXEL/Knowledge-Hub
+  git clone https://github.com/SabirXP/Knowledge-Hub
  ```
 - Open Android Studio and select Open an existing Android Studio project.
 - Locate the cloned repository and select the root directory.
